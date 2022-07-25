@@ -21,4 +21,4 @@ def async_jwt():
     return wrapper
 
 class asynctable_jwt:
-    jwt = async_jwt()
+    lock = async_jwt()
